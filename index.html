@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-container bg-grey">
+        <div class="card">
+          <div class="card-info">
+            <div class="img-section">
+              <div class="line"></div>
+              <div>
+                <img
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
+                  alt="Peter Smith Photo"
+                />
+              </div>
+              <div class="line"></div>
+            </div>
+            <div class="card-text">
+              <h1>Peter Smith</h1>
+              <p>@petersmith</p>
+            </div>
+          </div>
+          <div class="meet">
+            <button id="meet-btn">Meet Peter</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const meetBtn = document.getElementById('meet-btn');
+      console.log(meetBtn);
+
+      const cardText = document.getElementsByClassName('card-text');
+      console.log(cardText);
+
+      const tagH1 = document.getElementsByTagName('h1');
+      console.log(tagH1);
+    </script>
+  </body>
+</html>
