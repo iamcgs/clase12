@@ -21,10 +21,6 @@ body {
   background-color: var(--card-background);
 }
 
-.flex {
-  display: flex;
-}
-
 /* Container */
 .container {
   display: flex;
